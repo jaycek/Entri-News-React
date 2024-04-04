@@ -1,8 +1,11 @@
 import React from 'react'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import { useState ,useEffect} from 'react'
+
 
 const App = () => {
+
   return (
   <div className="container">
     <Hero/>
@@ -32,7 +35,6 @@ const App = () => {
     </div>
   </article>
 </section>
-
       
   </div>
   )
